@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency converter.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Currency Converter</h1>
+        <div class="input-group">
+            <input type="number" id="usd" placeholder="US Dollars">
+            <label for="usd">USD</label>
+        </div>
+        <div class="input-group">
+            <input type="number" id="ngn" placeholder="Nigerian Naira">
+            <label for="ngn">NGN</label>
+        </div>
+        <button onclick="convertToNaira()">Convert to Naira</button>
+        <button onclick="convertToDollar()">Convert to Dollar</button>
+    </div>
+    <script src="currency converter.js"></script>
+</body>
+</html>
